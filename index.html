@@ -7,11 +7,23 @@
     <link rel="stylesheet" href="./dist/styles.css" />
   </head>
   <body class="bg-gray-100 text-gray-900">
-    <div class="flex items-center justify-center h-screen">
+    <div class="flex gap-2 flex-col items-center justify-center h-screen">
       <h1 class="text-4xl font-bold text-blue-500 underline">
         Hello, Tailwind with Vanilla JS!
       </h1>
+      <div class="p-6 bg-gray-100 rounded-lg">
+        <h2 class="text-xl font-bold text-gray-800 mb-4">Features:</h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+          <li class="hover:text-blue-500 transition">Responsive design</li>
+          <li class="hover:text-blue-500 transition">
+            Built with Tailwind CSS
+          </li>
+          <li class="hover:text-blue-500 transition">Easy customization</li>
+          <li class="hover:text-blue-500 transition">Lightweight and fast</li>
+        </ul>
+      </div>
     </div>
+
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>
